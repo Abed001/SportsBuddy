@@ -1,25 +1,50 @@
 @import "tailwindcss";
 
 @theme {
-  --color-charcoal: #1E1F24;
-  --color-charcoal-soft: #2A2B31;
-  --color-lavender: #A99BFF;
-  --color-lavender-tint: #E9E5FF;
-  --color-lime: #D6F55B;
-  --color-lime-dark: #C4E83F;
-  --color-ink: #14151A;
-  --color-muted: #6B6F7A;
-  --color-line: #E4E4E8;
-  --color-page: #F3F3F5;
-  --color-success: #16A34A;
-  --color-success-tint: #DCFCE7;
-  --color-danger: #DC2626;
-
-  --font-display: "Syne", sans-serif;
-  --font-num: "Space Grotesk", sans-serif;
+  /* Typography */
+  --font-heading: "Syne", sans-serif;
+  --font-stats: "Space Grotesk", sans-serif;
   --font-sans: "Inter", sans-serif;
 
-  --radius-card: 24px;
-  --radius-input: 16px;
-  --shadow-card: 0 4px 16px rgba(20, 21, 26, 0.06);
+  /* Brand & Core Palette */
+  --color-primary: #d6f55b;
+  --color-primary-hover: #c4e645;
+  --color-primary-content: #131418;
+
+  --color-charcoal-dark: #131418;
+  --color-charcoal: #1e1f24;
+  --color-charcoal-light: #282a30;
+  --color-charcoal-border: #32353d;
+
+  --color-lavender-card: #e8e5f8;
+  --color-lavender-tag: #5b46e5;
+  --color-danger: #ef4444;
+  --color-danger-subtle: #fef2f2;
+  --color-success: #22c55e;
+  --color-success-subtle: #f0fdf4;
+
+  /* Surfaces & Backgrounds */
+  --color-surface: #faf8ff;
+  --color-surface-dim: #dad9e0;
+  --color-surface-bright: #faf8ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f3fa;
+  --color-surface-container: #eeedf4;
+  --color-surface-container-high: #e8e7ef;
+  --color-surface-container-highest: #e2e1e9;
+
+  /* Text & Borders */
+  --color-on-surface: #1a1b21;
+  --color-on-surface-variant: #6b7280;
+  --color-outline: #e5e7eb;
+  --color-outline-variant: #d1d5db;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
 }
